@@ -1,0 +1,67 @@
+ 
+ body {
+    background-color: rgb(255, 255, 255);
+}
+
+img {
+    max-width:100%;
+    height:auto;
+}
+
+h1 {
+    color:rgb(19, 95, 109);
+    font-size: 40px;
+    font-family:cursive
+}
+
+h2 {
+    color:rgb(200, 65, 233);
+    font-size: 20px;
+}
+
+ 
+h3 {
+    color:rgb(19, 95, 109);
+    font-size: 25px;
+}
+
+ul li h1{
+    font-size:18px;
+
+}
+
+ul li h2{
+    font-size:18px;
+}
+
+ul li h3{
+    font-size:18px;
+    color:rgb(19, 95, 109)
+}
+
+ul li h4{
+    font-size:18px;
+    color:rgb(19, 95, 109)
+}
+
+h4 {
+    font-size:15px;
+}
+
+h5 {
+    font-size:15px;
+}
+
+p {
+    font-size:18px;
+    color:rgb(19, 95, 109)
+}
+
+#box-model {
+    padding: 15px;
+    border-style:double;
+    border-width: 5px;
+    margin:auto;
+    background-color: rgb(100, 209, 195);
+    font-family:cursive
+}

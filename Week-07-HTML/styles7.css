@@ -1,0 +1,27 @@
+h1 {
+    color:rgb(19, 95, 109);
+           font-size:40px;
+       }
+       .image1 {
+           max-width:100%;
+        height:auto;
+       } 
+       
+       .image2 {
+           width:400px;
+           height:400px;
+           float:right
+       }
+   
+       h1 {
+        color:rgb(19, 95, 109);
+        font-size:40px;
+       }
+
+       p {
+           font-size: 18px;
+       }
+   
+       ul {
+           font-size: 18px;
+       }

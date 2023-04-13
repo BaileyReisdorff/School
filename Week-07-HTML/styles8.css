@@ -1,0 +1,27 @@
+
+
+img {
+    max-width:100%;
+height:auto;
+} 
+
+h1 {
+    color:rgb(19, 95, 109);
+    font-size:40px;
+}
+
+h2 {
+    color:rgb(200, 65, 233);
+    font-size:30px;
+}
+
+th h1 {
+    color:rgb(19, 95, 109);
+    font-size:20px;
+}
+
+th h2 {
+    color:rgb(19, 95, 109);
+    font-size:20px;
+}
+

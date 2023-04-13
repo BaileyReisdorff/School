@@ -1,0 +1,22 @@
+h1 {
+    color:rgb(19, 95, 109);
+    font-size:40px;
+}
+.image1 {
+    max-width:100%;
+height:auto;
+} 
+
+.image2 {
+    width:600px;
+    height:600px;
+    float:right
+}
+
+p {
+    font-size: 18px;
+}
+
+ul {
+    font-size: 18px;
+}
