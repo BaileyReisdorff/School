@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <style>
+        div {
+        border-style: solid;
+        border-color: rgb(116, 7, 116);
+         }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Something</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" 
+        aria-controle="#navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Item One</a>
+                        <a class="dropdown-item" href="#">Item Two</a>
+                        <a class="dropdown-item" href="#">Item Three</a>
+                    </div>
+                </li>
+            </ul>
+            <img src="Banner.jpg"/>
+        </div>
+    </nav>
+  
+  
+    <div class="d-flex p-2">I'm a flexbox container!</div>
+  
+  
+    <div class="container"> 
+        <div class="row">
+            <div class="col-md-6">
+                   Sterling
+            </div>
+            <div class="col-md-3">
+                Silver
+            </div>
+            <div class="col-md-3">
+                Jewelry
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid"> 
+        <div class="row">
+            <div class="col-sm">
+                Bracelets
+            </div>
+            <div class="col-sm">
+                Earrings
+            </div>
+            <div class="col-sm">
+                <div class="row">
+                    <div class="col-sm">
+                        Earrings
+                    </div>
+                    <div class="col-sm">
+                        Earrings
+                    </div>
+                    
+            </div>
+        </div>
+    </div>
+
+
+
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+</html>
