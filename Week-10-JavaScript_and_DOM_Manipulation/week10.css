@@ -1,0 +1,13 @@
+img {
+    max-width:100%;
+    height:auto;
+}
+
+#box-model {
+    padding: 15px;
+    text-align: center;
+    border-width: 5px;
+    margin:auto;
+    background-color: rgb(100, 209, 195);
+    font-family:cursive
+}
